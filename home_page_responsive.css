@@ -85,6 +85,10 @@
 
 @media screen and (max-width: 1080px) and (max-height:  2312px) {
 
+    body {
+        font-size: 16px;
+    }
+    
     .elements {
         display: flex;
         flex-direction: column;
@@ -106,6 +110,10 @@
 
 
 @media screen and (max-width: 1080px) and (max-height: 2400px) {
+
+    body {
+        font-size: 16px;
+    }
 
     .elements {
         display: flex;
