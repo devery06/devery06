@@ -79,3 +79,47 @@
         margin-bottom: 8px;
     }
 }
+
+
+
+
+@media screen and (width: 1080px) and (height:  2312px) {
+
+    .elements {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .box {
+        width: 700px;
+        height: 650px;
+        vertical-align:middle;
+    }
+
+    footer {
+        bottom: -130px;
+    }
+
+}
+
+
+
+@media screen and (width: 1080px) and (height: 2400px) {
+
+    .elements {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center;
+    }
+    .box {
+        width: 700px;
+        height: 650px;
+        vertical-align:middle;
+    }
+
+    footer {
+        bottom: -130px;
+    }
+}
