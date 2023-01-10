@@ -83,7 +83,7 @@
 
 
 
-@media screen and (width: 1080px) and (height:  2312px) {
+@media screen and (max-width: 1080px) and (max-height:  2312px) {
 
     .elements {
         display: flex;
@@ -105,7 +105,7 @@
 
 
 
-@media screen and (width: 1080px) and (height: 2400px) {
+@media screen and (max-width: 1080px) and (max-height: 2400px) {
 
     .elements {
         display: flex;
