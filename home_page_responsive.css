@@ -132,7 +132,7 @@
     }
 
     footer {
-        bottom: -130px;
+        display: none !important;
     }
 
 }
@@ -187,6 +187,6 @@
     }
 
     footer {
-        bottom: -130px;
+        display: none !important;
     }
 }
