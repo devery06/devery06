@@ -90,9 +90,33 @@
     }
 
     nav {
-        height: 120px;
-        font-size: 16px;
+        height: 120px !important;
+        font-size: 20px !important;
     }
+
+    .rightNavContent {
+        margin: 20px;
+        margin-top: 40px !important;
+    }
+
+    .login  {
+        display: flex;
+        flex-direction: flex; 
+        align-items: flex-end; 
+        margin-left: 40%; 
+        margin-bottom: 45px !important;
+        font-size: 14px;
+        
+    }
+
+    .searchBar {
+        margin: 20px;
+        margin-top: 35px !important;
+        width: 140% !important;
+        height: 30px;
+        border-radius: 30px;
+    }
+
 
     .elements {
         display: flex;
