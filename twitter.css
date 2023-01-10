@@ -1,0 +1,102 @@
+body {
+    background-color: gray;
+}
+
+
+img {
+    margin: 12px;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border: 1.5px solid black;
+    border-radius: 40px;
+    margin-top: 10px;
+
+}
+
+button {
+    margin: 20px;
+    width: 90px;
+    height: 30px;
+    border: 1.5px solid black;
+    border-radius: 40px;
+}
+
+a {
+    color: blue;
+}
+
+a:hover {
+    color: rgba(96, 109, 255, 0.842);
+    cursor: pointer;
+}
+
+
+.entirePage {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+
+.leftPage {
+width: 50%;
+background-color: rgb(86, 137, 213);
+color: white;
+}
+
+.leftPageArguments {
+    margin-left: 40%;
+    text-align: start;
+    margin-top: 44%;
+    display: flex;
+    flex-direction: column;
+}
+
+.string{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.rightPage {
+width: 50%;
+background-color: white;
+}
+
+.rightPageArguments {
+    margin-left: 30%;
+    text-align: start;
+    margin-top: 30%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+
+.button {
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+
+
+.log_in {
+    background-color: rgb(17, 255, 255);
+}
+
+.log_in:hover {
+    background-color: rgb(17, 170, 170);
+    cursor: pointer;
+}
+
+
+.noAccount { 
+    font-size: 16px;
+}
+

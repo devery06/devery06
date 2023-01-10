@@ -1,0 +1,81 @@
+@media screen and (max-width: 1366px) {
+
+    .box {
+        width: 250px;
+        height: 340px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -100px;
+        width: 100%;
+    }
+    
+}
+
+@media screen and (min-width: 1367px) and ( max-width: 1600px) {
+
+    .box {
+        width: 330px;
+        height: 450px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -90px;
+        width: 100%;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+
+    .box {
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -10px;
+        width: 100%;
+    }
+
+
+
+}
+
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+
+    body {
+        font-size: 30px;
+    }
+
+    .box {
+        width: 600px;
+        height: 800px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: -10px;
+        width: 100%;
+    }
+
+    .login {
+        width: 250px ;
+        margin-right: 10px;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+}

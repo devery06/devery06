@@ -1,0 +1,8 @@
+maglione_natalizio.css
+
+.content_image {
+    border: 1px solid black;
+    background-color: grey;
+    width: 400px;
+    height: 500px;
+}

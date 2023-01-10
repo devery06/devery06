@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,700&display=swap');
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+.box {
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.box .description {
+    text-align: center;
+    justify-content: end;
+    margin-bottom: 8px;
+}
+
+.box .price {
+    text-align: center;
+    justify-content: end;
+    font-size: 12px;
+    margin: 0px;
+}
+
+.immagini {
+    width: 98%;
+    height: 80%;
+}
+
+
+.login {
+    display: flex;
+    flex-direction: flex; 
+    align-items: flex-end; 
+    margin-left: 40%; 
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.login .icon {
+    height: 40px;
+    width: 40px;
+    margin-bottom: 5px;
+}
+
+.login_text {
+    margin-bottom: 15px;
+}
+
+.hr {
+    margin: 0px; 
+    padding: 0px;
+}
+
+
+
+#item {
+    text-decoration: none;
+    color: black;
+}
+
+#searchBar {
+    width: 50%;
+    margin-left: 8%;
+}
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+footer {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+}
+
+
+  /* RESPONSIVE */
+
+
