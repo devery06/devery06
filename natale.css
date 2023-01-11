@@ -67,10 +67,6 @@
     margin-left: 8%;
 }
 
-a {
-    color: black;
-    text-decoration-line: none;
-}
 
 footer {
     position: absolute;
@@ -90,5 +86,4 @@ footer {
     height: 40px;
     background-color: black;
     color: white;
-    display: none;
 }

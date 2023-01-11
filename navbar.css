@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    overflow: hidden;
+
 }
 
 nav {
@@ -16,7 +16,15 @@ nav {
     font-weight: bold;
     display: flex;
     flex-direction: row;
-    z-index: 20;
+}
+
+nav a {
+    color: black;
+    text-decoration-line: none;
+}
+
+nav a:hover {
+    color: yellow;
 }
 
 .rightNav {

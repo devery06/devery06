@@ -1,8 +1,46 @@
-maglione_natalizio.css
 
-.content_image {
+
+.image {
     border: 1px solid black;
     background-color: grey;
-    width: 400px;
-    height: 500px;
+    width: 700px;
+    height: 800px;
+    margin: 50px;
+    margin-top: 50px;
+}
+
+.content {
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 350px;
+    border-radius: 30px 0px 0px 30px;
+    height: 900px;
+
+}
+
+.description {
+    display: block;
+    flex-direction: column;
+    font-size: 26px;
+    line-height: 20px;
+}
+
+.description_title {
+    color: rgba(255, 255, 255, 0.771);
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.compra {
+    margin: 20px;
+    height: 40px;
+    width: 110px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 52);
+}
+
+button:hover {
+    background-color: rgb(211, 211, 0);
 }
