@@ -76,3 +76,10 @@ nav a:hover {
     width: 50%;
     margin-left: 8%;
 }
+
+
+
+
+#closeNav {
+    display: none;
+}
