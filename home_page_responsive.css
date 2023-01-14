@@ -21,7 +21,7 @@
         top: 0;
         right: 0;
         background-color: rgb(30, 30, 159);
-        width: 100px;
+        width: 120px;
         height: 2000px;
         font-size: 16px;
     }
@@ -33,17 +33,22 @@
         justify-content: center;
         width: fit-content;
         height: fit-content;
+        margin-top: 10px;
     }
 
     .rightNavContent {
         display: block;
         margin: 0px !important;
+        margin-top: 30px !important;
+        text-align: center;
+        justify-content:center;
+        color: white;
 
     }
 
     .icon {
         position: fixed;
-        right: 0px;
+        right: 20px;
         bottom: 0px;
         width: 60px !important;
         height: 60px !important;
