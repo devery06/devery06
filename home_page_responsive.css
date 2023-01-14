@@ -200,4 +200,8 @@
     nav {
         display: none;
     }
+
+    #outNavbar {
+        display: block;
+    }
 }
