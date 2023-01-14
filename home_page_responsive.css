@@ -46,6 +46,10 @@
 
     }
 
+    #contatta {
+        margin-left: 10px !important;
+    }
+
     .icon {
         position: fixed;
         right: 20px;
