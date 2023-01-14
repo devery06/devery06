@@ -2,9 +2,10 @@
 <html>
     <head>
         <title>Shopping natalizio</title>
-        <link rel="stylesheet" href="home_page.css">
-        <link rel="stylesheet" href="home_page_responsive.css">
-        <link rel="stylesheet" href="navbar.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="home_page.css">
+        <link rel="stylesheet" type="text/css" href="home_page_responsive.css">
+        <link rel="stylesheet" type="text/css" href="navbar.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,700;1,700&display=swap" rel="stylesheet">
@@ -26,17 +27,15 @@
                     <a href="login.html" class="login_text">Accedi con il tuo account twitter!</a>
                 </div>
             </div>
-            <button id="hideNav" onclick="toggle()" style="background-color: black; color: white;">Hide</button>
-
         </nav>
 
-        <button id="outNavbar" onclick="toggle()" style="display: none;">Show</button>
+        <button id="outNavbar" onclick="toggle()"><span></span></button>
         
         <!-- END OF THE NAVBAR -->
 
-        <div class="elements">
+        <div class="elements" id="elements">
             
-            <div class="box">
+            <div class="box" id="box">
                 <a id="item" href="maglione_natalizio.html">
                     <img class="immagini" src="immagini/contenuti/maglione_natalizio.jpg">
                     <hr width="100%" size="1" class="hr">
@@ -45,7 +44,7 @@
                 </a>
             </div>
 
-            <div class="box">
+            <div class="box" id="box">
                 <a id="item" href="cappello_natalizio.html">
                     <img class="immagini" src="immagini/contenuti/cappello_natale.jpg">
                     <hr width="100%" size="1" class="hr">
@@ -54,7 +53,7 @@
                 </a>
             </div>
 
-            <div class="box">
+            <div class="box" id="box">
                 <a id="item" href="pigiama_natalizio.html">
                     <img class="immagini" src="immagini/contenuti/pigiama_natalizio.jpg">
                     <hr width="100%" size="1" class="hr">
@@ -63,7 +62,7 @@
                 </a>
             </div>
 
-            <div class="box">
+            <div class="box" id="box">
                 <a id="item" href="albero_natalizio.html">
                     <img class="immagini" src="immagini/contenuti/albero_natalizio.jpg">
                     <hr width="100%" size="1" class="hr">
@@ -74,24 +73,23 @@
         </div>
         <!-- <footer><img src="immagini/footer.jpg" width="100%" height="300px"></footer> -->
 
-        <script>
-            function toggle() {
-                if (document.getElementById("navbar").style.display == "none") {
-                    document.getElementById("navbar").style.display = "flex";
-                } else {
-                    document.getElementById("navbar").style.display = "none";
-                }
-
-                if (document.getElementById("outNavbar").style.display == "none") {
-                    document.getElementById("outNavbar").style.display = "block";
-                } else {
-                    document.getElementById("outNavbar").style.display = "none";
-                }
-            }
-        </script>
-
     </body>
-    
+
+    <script>
+
+
+        function toggle() {
+            if (document.getElementById("navbar").style.display == "none") {
+                document.getElementById("navbar").style.display = "flex";
+                document.getElementById("elements").style.alignItems = "flex-start";
+
+            } else {
+                document.getElementById("navbar").style.display = "none";
+                document.getElementById("elements").style.alignItems = "center";
+            }
+        }
+    </script>
+
 </html>
 
 
