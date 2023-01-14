@@ -17,36 +17,76 @@
 
     #navbar {
         display: none;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: rgb(30, 30, 159);
+        width: 100px;
+        height: 2000px;
+        font-size: 16px;
+    }
+
+    .rightNav {
+        display: block !important;
+        position: fixed;
+        right: 0px;
+        justify-content: center;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .rightNavContent {
+        display: block;
+        margin: 0px !important;
+
+    }
+
+    .icon {
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .login_text {
+        display: none;
+    }
+
+
+    #searchBar {
+        display: none;
     }
 
     #outNavbar {
         display: block;
     }
 
+    #outNavbar {
+        background-color: #000000;
+        border-radius: 49px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    #outNavbar span {
+        background-image: url(immagini/logo_icon/menu.png);
+        width: 40px;
+        height: 39px;
+        background-repeat: no-repeat;
+        background-color: white;
+        border-radius: 40px;
+        justify-content: center;
+        vertical-align:middle;
+    }
 }
 
-#outNavbar {
-    background-color: #000000;
-    border-radius: 49px;
-    display: inline-flex !important;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    position: fixed;
-    top: 0;
-    right: 0;
-}
 
-#outNavbar span {
-    background-image: url(immagini/logo_icon/menu.png);
-    width: 40px;
-    height: 39px;
-    background-repeat: no-repeat;
-    background-color: white;
-    border-radius: 40px;
-    justify-content: center;
-    vertical-align:middle;
-}
 
 /*
 

@@ -12,6 +12,7 @@
 
     </head>
     <body>
+        <button id="outNavbar" onclick="toggle()"><span></span></button>
         <nav id="navbar">
             <div class="rightNav">
                 <a class="rightNavContent" href="index.html">HOME</a>
@@ -29,7 +30,7 @@
             </div>
         </nav>
 
-        <button id="outNavbar" onclick="toggle()"><span></span></button>
+        
         
         <!-- END OF THE NAVBAR -->
 
@@ -80,7 +81,7 @@
 
         function toggle() {
             if (document.getElementById("navbar").style.display == "none") {
-                document.getElementById("navbar").style.display = "flex";
+                document.getElementById("navbar").style.display = "block";
                 document.getElementById("elements").style.alignItems = "flex-start";
 
             } else {
