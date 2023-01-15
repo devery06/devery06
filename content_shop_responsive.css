@@ -61,6 +61,14 @@
         padding-bottom: 40px;
     }
 
+    #logo {
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        width: 80px;
+        height: 80px;
+    }
+
     #searchBar {
         display: none;
     }
