@@ -2,9 +2,6 @@
 
 @media (max-width: 768px) {
 
-    * {
-        overflow: hidden;
-    }
 
     nav {
         background-color: transparent !important;
@@ -47,9 +44,19 @@
         margin-left: 15px;
     }
 
+    .compra {
+        text-align: center;
+        font-size: 20px;
+        width: 100px !important;
+        height: 60px !important;
+        border-radius: 50px !important;
+    }
+
     #searchBar {
         display: none;
     }
+
+    
 
 }
 
