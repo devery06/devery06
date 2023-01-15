@@ -29,6 +29,7 @@
         background-color: gray;
         width: 100%;
         margin-left: 0px;
+        margin-top: 30px;
         height: 100% !important;
         display: block;
     }
@@ -48,8 +49,16 @@
         text-align: center;
         font-size: 20px;
         width: 100px !important;
-        height: 60px !important;
+        height: 50px !important;
         border-radius: 50px !important;
+        position: absolute;
+        right: 0px;
+        bottom: -110px;
+    }
+
+    .description_price {
+        margin-top: 30px;
+        padding-bottom: 40px;
     }
 
     #searchBar {
