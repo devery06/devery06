@@ -76,6 +76,10 @@
     display: none;
 }
 
+#logo {
+    display: none;
+}
+
 footer {
     position: absolute;
     bottom: -10px;

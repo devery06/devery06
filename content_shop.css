@@ -41,6 +41,12 @@
     background-color: rgb(255, 255, 52);
 }
 
+#logo {
+    display: none;
+}
+
+
+
 button:hover {
     background-color: rgb(211, 211, 0);
 }

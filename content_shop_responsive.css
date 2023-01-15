@@ -51,9 +51,9 @@
         width: 100px !important;
         height: 50px !important;
         border-radius: 50px !important;
-        position: absolute;
-        right: 0px;
-        bottom: -110px;
+        margin: 0px !important;
+        margin-left: 200px !important;
+        
         
     }
 
@@ -63,6 +63,7 @@
     }
 
     #logo {
+        display: block;
         position: absolute;
         left: 10px;
         top: 10px;
